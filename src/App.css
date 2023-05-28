@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.my-shadow {
+
+ color: #cbcbcb !important;
+}
+.my-shadow:hover {
+ box-shadow: 1px 1px 10px 6px rgba(100, 100, 100, 0.9);
+ color: #cbcbcb !important;
+ transition: 0.5s;
+}
+
+.nav-hover:hover{
+  background-color: #054;
+  padding: 4px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+a{
+  text-decoration: none !important;
+}
