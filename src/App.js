@@ -14,8 +14,7 @@ function App() {
     <div className="App bg-dark">
       <NavbarComponent />
       <hr className="text-light bg-light" />
-      <About />
-
+<About/>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<MyProjects />} />
