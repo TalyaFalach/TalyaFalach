@@ -16,7 +16,7 @@ function App() {
       <hr className="text-light bg-light" />
 
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<About/>} />
         <Route path="/projects" element={<MyProjects />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery/>} />
