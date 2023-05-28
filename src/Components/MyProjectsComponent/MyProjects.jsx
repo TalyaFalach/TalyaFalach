@@ -8,7 +8,7 @@ const githubLink = "https://github.com/TalyaFalach?tab=repositories";
 const MyProjects = () => {
   return (
     <div className="text-light mb-5 container ">
-      <h1 className="display-4 border-top border-bottom p-2  mb-5 mt-5 animate__animated animate__bounceInRight  ">
+      <h1 className="display-4 border-top border-bottom mx-auto p-2 mx-auto mb-5 mt-5 animate__animated animate__bounceInRight  ">
         My Projects
       </h1>
 

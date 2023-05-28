@@ -7,7 +7,7 @@ import Linkedin from "../../Icons/Linkedin";
 const Contact = () => {
   return (
     <Container className="text-light">
-      <h1 className="display-4 border-top border-bottom p-2 mb-5 mt-5 animate__animated animate__bounceInRight  ">
+      <h1 className="display-4 border-top border-bottom mx-auto p-2 mb-5 mt-5 animate__animated animate__bounceInRight  ">
         Contact Me
       </h1>
       <p className="lead w-25">Talyafalach@gmail.com</p>
