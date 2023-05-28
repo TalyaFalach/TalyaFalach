@@ -22,7 +22,7 @@ const NavbarComponent = () => {
             <Nav.Link
               onClick={() => navigate("/projects")}
               className="text-light nav-hover"
-              href="#home"
+             
             >
               Projects
             </Nav.Link>
