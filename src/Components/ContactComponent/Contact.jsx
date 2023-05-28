@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Container, Table } from "react-bootstrap";
+import { Badge, Container } from "react-bootstrap";
 import Facebook from "../../Icons/Facebook";
 import Instagram from "../../Icons/Instagram";
 import Linkedin from "../../Icons/Linkedin";
