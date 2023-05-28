@@ -12,7 +12,7 @@ const NavbarComponent = () => {
         <Navbar.Brand
           onClick={() => navigate("/")}
           className="text-light nav-hover"
-          href="#home"
+         
         >
           HOME
         </Navbar.Brand>
