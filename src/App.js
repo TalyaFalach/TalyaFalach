@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "animate.css";
-import Main from "./Pages/MainPage/Main";
+
 import NavbarComponent from "./Components/NavComponent/Navbar";
 import About from "./Components/AboutComponent/About";
 import MyProjects from "./Components/MyProjectsComponent/MyProjects";
@@ -14,7 +14,7 @@ function App() {
     <div className="App bg-dark">
       <NavbarComponent />
       <hr className="text-light bg-light" />
-      <About />
+     
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<MyProjects />} />

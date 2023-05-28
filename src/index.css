@@ -7,8 +7,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-p {
-  text-align: left;
-  line-height: 2.5rem !important;
-  padding: 6px;
-}
