@@ -1,22 +1,22 @@
-
-
 .my-shadow {
-
- color: #cbcbcb !important;
+  color: #cbcbcb !important;
 }
 .my-shadow:hover {
- box-shadow: 1px 1px 10px 6px rgba(100, 100, 100, 0.9);
- color: #cbcbcb !important;
- transition: 0.5s;
+  box-shadow: 1px 1px 10px 6px rgba(100, 100, 100, 0.9);
+  color: #cbcbcb !important;
+  transition: 0.5s;
 }
 
-.nav-hover:hover{
+.nav-hover:hover {
   background-color: #054;
   padding: 4px;
   border-radius: 10px;
   transition: 0.3s;
 }
 
-a{
+a {
   text-decoration: none !important;
+}
+p {
+  line-height: 2.7rem;
 }
