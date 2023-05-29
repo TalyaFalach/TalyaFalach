@@ -17,12 +17,12 @@ const StandartProject = () => {
         express Client side was built using React
       </p>
       <a href="https://github.com/TalyaFalach/standart-client">
-        <Button className="w-25 m-3">GitHub (Client)</Button>
-      </a>
+        <Button className=" m-3">GitHub (Client)</Button>
+      </a>{" "}
+      <br />
       <a href="https://github.com/TalyaFalach/standartServer">
-        <Button className="w-25 m-3">GitHub (Server)</Button>
+        <Button className=" m-3">GitHub (Server)</Button>
       </a>
-
       <iframe
         className="rounded mx-auto  container"
         width="600"
@@ -33,8 +33,6 @@ const StandartProject = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-
-     
     </>
   );
 };

@@ -4,7 +4,7 @@ import About from "./../../Components/AboutComponent/About";
 
 const Main = () => {
   return (
-    <div className="mt-5 mb-5">
+    <div className="mt-5 mb-5 container">
       <h1 className="font mx-auto text-center">HEY, I'M TALYA FALACH</h1>
       <p className="text-center mx-auto w-75 mt-3">
        
