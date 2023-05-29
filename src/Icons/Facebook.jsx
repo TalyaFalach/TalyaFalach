@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 const Facebook = () => {
   return (
     <div>
-      <a
-        href="https://www.facebook.com/profile.php?id=100009151983988"
-        target="blank"
-      >
+      <a href="https://www.facebook.com/profile.php?id=100009151983988" target="blank">
         <svg
           style={{ cursor: "pointer" }}
           xmlns="http://www.w3.org/2000/svg"

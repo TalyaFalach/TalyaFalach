@@ -4,29 +4,45 @@ import "./../../App.css";
 
 const About = () => {
   return (
-    <div className="bg-dark container mx-auto text-center text-light m-5">
-      <Row>
+    <div className=" container mx-auto text-center mt-5">
+      <h1 className="font mx-auto text-center animate__animated animate__bounceInRight">
+        ABOUT ME
+      </h1>
+      <Row className="mt-5">
         <Col sm={6}>
-          <h2 className=" m-3 display-4 animate__animated animate__bounceInRight ">
-            Hello!
-          </h2>
-          <p className="lead my-p animate__animated animate__bounceInLeft ">
-            {" "}
-            <mark className="fw-bold ">My name is Talya Falach</mark> , I'm 26
-            years old from Netanya. In the past I studied music, playing the
-            electric guitar and drums and connected to the world of music. I
-            fell in love with the world of computers a year and a half ago, I
-            studied development and recently studied QA. Excited and looking
-            forward to learning new things.
-            <br />
+          <h3>Get to know me!</h3>
+          <hr />
+          <p>
+            I'm a musician (guitar player) turned full stack developer with a
+            focus on Quality Assurance (QA). With a meticulous eye for detail
+            and a passion for delivering exceptional user experiences, I bring a
+            unique blend of creativity and technical expertise to ensure
+            software meets the highest standards of quality, usability, and
+            functionality.
           </p>
         </Col>
         <Col sm={6}>
-          <img
-            className="shadow-inner    h-100 w-75 rounded"
-            src={`https://scontent.ftlv15-1.fna.fbcdn.net/v/t1.6435-9/80436847_2418227685158941_4453789573083824128_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=u14YpJXoRfMAX81wU2j&_nc_ht=scontent.ftlv15-1.fna&oh=00_AfDq7QRWcspDGc9TTZlP0TXadX-Dz0zZ_2JsU35sonhfLg&oe=6491363A`}
-            alt="me"
-          />
+          <h3>My Skills</h3>
+          <hr />
+          <br />
+          <mark className="bg-dark text-light p-3 rounded m-4">HTML</mark>
+          <mark className="bg-dark text-light p-3 rounded m-3">CSS</mark>
+          <mark className="bg-dark text-light p-3 rounded m-3">
+            Java Script
+          </mark>
+          <br />
+          <br />
+          <br />
+          <mark className="bg-dark text-light p-3 rounded m-4">Python</mark>
+          <mark className="bg-dark text-light p-3 rounded m-3">React</mark>
+          <mark className="bg-dark text-light p-3 rounded m-3">MongoDB</mark>
+          <br />
+          <br />
+          <br />
+          <mark className="bg-dark text-light p-3 rounded m-3">GitHub</mark>
+          <mark className="bg-dark text-light p-3 rounded m-3">
+            Express Basics
+          </mark>
         </Col>
       </Row>
     </div>

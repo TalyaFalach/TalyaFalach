@@ -3,8 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Gallery = () => {
   return (
-    <Container className="text-light">
-     
+    <Container>
       <h1 className="display-4 border-top border-bottom p-2 mx-auto text-center  mb-5 mt-5 animate__animated animate__bounceInRight  ">
         My Music Gallery
       </h1>

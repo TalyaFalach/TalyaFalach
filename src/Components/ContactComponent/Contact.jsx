@@ -6,10 +6,8 @@ import Linkedin from "../../Icons/Linkedin";
 
 const Contact = () => {
   return (
-    <Container className="text-light">
-      <h1 className="display-4 border-top border-bottom text-center p-2 mb-5 mt-5 animate__animated animate__bounceInRight  ">
-        Contact Me
-      </h1>
+    <Container className="container border ">
+      {/* 
       <div className="text-center mx-auto container">
         <h2>
           <Badge>Talyafalach@gmail.com</Badge>
@@ -17,7 +15,24 @@ const Contact = () => {
         <Facebook />
         <Instagram />
         <Linkedin />
+      </div> */}
+      <h1 className=" p-2 mb-2 mt-2 animate__animated animate__bounceInRight  ">
+        Contact Me
+      </h1>
+      <div className="d-flex mx-auto container text-center">
+        <div className="mx-auto d-flex">
+          <Facebook />
+          <Instagram />
+          <Linkedin />
+        </div>
       </div>
+      <h2>
+        <div className="mx-auto text-center">
+          <Badge className="mx-auto text-center container w-50">
+            Talyafalach@gmail.com
+          </Badge>
+        </div>
+      </h2>
     </Container>
   );
 };
